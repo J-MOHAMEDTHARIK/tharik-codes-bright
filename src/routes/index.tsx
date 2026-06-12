@@ -79,10 +79,10 @@ function Home() {
           className="mt-20 grid grid-cols-2 md:grid-cols-4 gap-4"
         >
           {[
-            { k: "1000+", v: "Coding Problems Solved" },
-            { k: "10+", v: "Projects Delivered" },
-            { k: "98%", v: "API Uptime" },
-            { k: "30%", v: "Faster APIs" },
+            { k: "Open to Work", v: "Available for opportunities" },
+            { k: "Full Stack", v: "Developer" },
+            { k: "Java + Spring Boot", v: "Backend Expertise" },
+            { k: "MERN Stack", v: "Developer" },
           ].map((s) => (
             <div key={s.v} className="glass-card rounded-2xl p-6 text-center">
               <div className="text-3xl font-bold text-gradient">{s.k}</div>
