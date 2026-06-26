@@ -10,14 +10,21 @@ export const Route = createFileRoute("/about")({
 function About() {
   return (
     <section className="mx-auto max-w-5xl px-4 py-12">
-      <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.5 }}>
+      <motion.div
+        initial={{ opacity: 0, y: 20 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.5 }}
+      >
         <p className="text-sm font-mono text-primary uppercase tracking-widest">// about me</p>
-        <h1 className="mt-3 text-4xl md:text-5xl font-bold">Crafting reliable, <span className="text-gradient">delightful</span> software.</h1>
+        <h1 className="mt-3 text-4xl md:text-5xl font-bold">
+          Crafting reliable, <span className="text-gradient">delightful</span> software.
+        </h1>
         <p className="mt-6 text-lg text-muted-foreground leading-relaxed max-w-3xl">
-          I'm a Full-Stack Web Developer from Chennai, India, with hands-on experience building scalable
-          applications using React.js, Next.js, Node.js, Express, MongoDB, and Firebase. I love turning
-          complex problems into clean, performant interfaces — from real-time IoT dashboards to AI-powered
-          platforms. Strong fundamentals from 1000+ solved coding challenges keep me sharp.
+          I'm a Full-Stack Web Developer from Chennai, India, with hands-on experience building
+          scalable applications using React.js, Node.js, Express, MongoDB, SpringBoot and Firebase.
+          I love turning complex problems into clean, performant interfaces — from real-time IoT
+          dashboards to AI-powered platforms. Strong fundamentals from 1000+ solved coding
+          challenges keep me sharp.
         </p>
       </motion.div>
 

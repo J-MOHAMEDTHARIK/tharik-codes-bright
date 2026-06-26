@@ -7,18 +7,28 @@ export const Route = createFileRoute("/skills")({
 });
 
 const groups = [
-  { title: "Frontend", items: ["React.js", "Next.js", "Redux Toolkit", "Tailwind CSS", "Material UI", "Bootstrap"] },
-  { title: "Backend", items: ["Node.js", "Express.js", "Java", "Spring Boot", "REST APIs", "JWT / OAuth"] },
+  { title: "Frontend", items: ["HTML5", "CSS3", "React.js", "Material UI", "Bootstrap"] },
+  {
+    title: "Backend",
+    items: ["Node.js", "Express.js", "Spring Boot", "REST APIs", "Web Security", "JWT / OAuth"],
+  },
   { title: "Databases", items: ["MongoDB", "MySQL", "Firebase Firestore", "Realtime DB"] },
-  { title: "Languages", items: ["JavaScript (ES6+)", "C++", "Python", "HTML5", "CSS3"] },
-  { title: "DevOps & Tools", items: ["Git", "GitHub", "Docker", "GitHub Actions", "Postman", "Vite"] },
-  { title: "Extras", items: ["AI Chatbots", "Google Maps API", "Real-Time Tracking", "Dashboard Analytics"] },
+  { title: "Languages", items: ["JavaScript (ES6+)", "C++", "Java"] },
+  { title: "DevOps & Tools", items: ["Git", "GitHub", "Postman", "Vite"] },
+  {
+    title: "Extras",
+    items: ["AI Chatbots", "Google Maps API", "Real-Time Tracking", "Dashboard Analytics"],
+  },
 ];
 
 function Skills() {
   return (
     <section className="mx-auto max-w-6xl px-4 py-12">
-      <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.5 }}>
+      <motion.div
+        initial={{ opacity: 0, y: 20 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.5 }}
+      >
         <p className="text-sm font-mono text-primary uppercase tracking-widest">// skills</p>
         <h1 className="mt-3 text-4xl md:text-5xl font-bold">
           My <span className="text-gradient">technical toolkit</span>
