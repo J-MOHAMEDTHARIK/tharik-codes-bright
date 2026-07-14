@@ -29,13 +29,13 @@ const projects = [
     github: "https://github.com/",
   },
   {
-    title: "Gym Application Website",
-    tag: "Web App",
-    image: "/images/gym-app.png",
-    desc: "Modern fitness and membership management platform featuring workout plans, membership tracking, responsive UI, and optimized user experience.",
-    stack: ["React.js", "REST APIs", "Tailwind CSS"],
-    live: "#",
-    github: "https://github.com/",
+    title: "NoteHub Application",
+    tag: "MERN · Full Stack",
+    image: "/images/notehub.png",
+    desc: "NoteHub is a modern full-stack Notes Management application built using the MERN Stack. It enables users to securely register, log in, and manage personal notes through a clean, responsive, and intuitive interface. Features include JWT Authentication, CRUD operations, real-time search, favorite notes, protected routes, and a modern dark-themed UI.",
+    stack: ["React.js", "Node.js", "Express.js", "MongoDB Atlas", "JWT Authentication", "REST API"],
+    live: "https://note-hub-five.vercel.app",
+    github: "https://github.com/J-MOHAMEDTHARIK",
   },
 ];
 
