@@ -12,7 +12,10 @@ function Home() {
       {/* Animated blobs */}
       <div className="pointer-events-none absolute inset-0 -z-10">
         <div className="absolute -top-32 -left-20 w-96 h-96 rounded-full bg-primary/20 blur-3xl animate-blob" />
-        <div className="absolute top-40 -right-20 w-[28rem] h-[28rem] rounded-full bg-accent/20 blur-3xl animate-blob" style={{ animationDelay: "4s" }} />
+        <div
+          className="absolute top-40 -right-20 w-[28rem] h-[28rem] rounded-full bg-accent/20 blur-3xl animate-blob"
+          style={{ animationDelay: "4s" }}
+        />
       </div>
 
       <div className="mx-auto max-w-6xl px-4 py-20 md:py-28">
@@ -31,7 +34,8 @@ function Home() {
             Hi, I'm <span className="text-gradient">Tharik Mohamed J</span>
           </h1>
           <p className="mt-6 text-lg md:text-xl text-muted-foreground max-w-2xl">
-            A Full Stack Developer building scalable web applications with the MERN stack, Java, and Spring Boot.
+            A Full Stack Developer building scalable web applications with the MERN stack, Java, and
+            Spring Boot.
           </p>
 
           <div className="mt-10 flex flex-wrap items-center justify-center gap-3">
@@ -43,7 +47,7 @@ function Home() {
               <ArrowRight size={16} className="group-hover:translate-x-1 transition-transform" />
             </Link>
             <a
-              href="/Tharik_Mohamed_Resume.pdf"
+              href="/Mohamed_Tharik_Resume.pdf"
               download
               className="inline-flex items-center gap-2 rounded-full glass-card px-6 py-3 text-sm font-semibold hover:bg-secondary transition-all"
             >
