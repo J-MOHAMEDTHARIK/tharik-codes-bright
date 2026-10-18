@@ -10,7 +10,12 @@ export const Route = createFileRoute("/resume")({
 function Resume() {
   return (
     <section className="mx-auto max-w-5xl px-4 py-12">
-      <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.5 }} className="flex flex-wrap items-end justify-between gap-4">
+      <motion.div
+        initial={{ opacity: 0, y: 20 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.5 }}
+        className="flex flex-wrap items-end justify-between gap-4"
+      >
         <div>
           <p className="text-sm font-mono text-primary uppercase tracking-widest">// resume</p>
           <h1 className="mt-3 text-4xl md:text-5xl font-bold">
@@ -37,7 +42,11 @@ function Resume() {
           <FileText size={14} className="text-primary" />
           Tharik_Mohamed_Resume.pdf
         </div>
-        <object data="/Tharik_Mohamed_Resume.pdf" type="application/pdf" className="w-full h-[80vh] bg-secondary/30">
+        <object
+          data="/Tharik_Mohamed_Resume.pdf"
+          type="application/pdf"
+          className="w-full h-[80vh] bg-secondary/30"
+        >
           <iframe src="/Tharik_Mohamed_Resume.pdf" className="w-full h-[80vh]" title="Resume" />
         </object>
       </motion.div>

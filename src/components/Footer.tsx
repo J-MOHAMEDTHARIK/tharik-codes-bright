@@ -8,13 +8,29 @@ export function Footer() {
           © {new Date().getFullYear()} Tharik Mohamed J. Crafted with care.
         </p>
         <div className="flex items-center gap-3">
-          <a href="https://github.com/" target="_blank" rel="noreferrer" className="p-2 rounded-full hover:bg-secondary transition" aria-label="GitHub">
+          <a
+            href="https://github.com/"
+            target="_blank"
+            rel="noreferrer"
+            className="p-2 rounded-full hover:bg-secondary transition"
+            aria-label="GitHub"
+          >
             <Github size={18} />
           </a>
-          <a href="https://linkedin.com/" target="_blank" rel="noreferrer" className="p-2 rounded-full hover:bg-secondary transition" aria-label="LinkedIn">
+          <a
+            href="https://linkedin.com/"
+            target="_blank"
+            rel="noreferrer"
+            className="p-2 rounded-full hover:bg-secondary transition"
+            aria-label="LinkedIn"
+          >
             <Linkedin size={18} />
           </a>
-          <a href="mailto:mohamedtharik1508@gmail.com" className="p-2 rounded-full hover:bg-secondary transition" aria-label="Email">
+          <a
+            href="mailto:mohamedtharik1508@gmail.com"
+            className="p-2 rounded-full hover:bg-secondary transition"
+            aria-label="Email"
+          >
             <Mail size={18} />
           </a>
         </div>

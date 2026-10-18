@@ -11,6 +11,23 @@ export const Route = createFileRoute("/projects")({
 
 const projects = [
   {
+    title: "AI Invoice & Purchase Order Intelligence",
+    tag: "AI · Full Stack",
+    desc: "Developed a full-stack web application that uses Gemini AI to automate invoice processing, purchase order matching, risk analysis, and approval workflows.",
+    stack: [
+      "React.js",
+      "JavaScript",
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+      "Gemini AI",
+      "REST APIs",
+      "JWT Authentication",
+    ],
+    live: "https://ai-invoice-intelligence-seven.vercel.app/",
+    github: "https://github.com/J-MOHAMEDTHARIK/ai-invoice-intelligence",
+  },
+  {
     title: "Vehicle Management Dashboard",
     tag: "IoT · Real-time",
     image: "/images/vehicle-dashboard.png",

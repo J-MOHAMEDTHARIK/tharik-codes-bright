@@ -27,7 +27,9 @@ export function Navbar() {
                 key={l.to}
                 to={l.to}
                 className="px-3 py-1.5 text-sm rounded-full text-muted-foreground hover:text-foreground transition-colors"
-                activeProps={{ className: "px-3 py-1.5 text-sm rounded-full bg-secondary text-foreground" }}
+                activeProps={{
+                  className: "px-3 py-1.5 text-sm rounded-full bg-secondary text-foreground",
+                }}
                 activeOptions={{ exact: l.to === "/" }}
               >
                 {l.label}
@@ -50,7 +52,9 @@ export function Navbar() {
                 to={l.to}
                 onClick={() => setOpen(false)}
                 className="px-3 py-2 rounded-lg text-sm text-muted-foreground hover:text-foreground hover:bg-secondary"
-                activeProps={{ className: "px-3 py-2 rounded-lg text-sm bg-secondary text-foreground" }}
+                activeProps={{
+                  className: "px-3 py-2 rounded-lg text-sm bg-secondary text-foreground",
+                }}
                 activeOptions={{ exact: l.to === "/" }}
               >
                 {l.label}
